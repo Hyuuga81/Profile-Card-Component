@@ -1,145 +1,142 @@
-/*<style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>*/
+* {
+    margin: 0;
+    padding: 0;
+}
 
-  * {
-      margin: 0;
-      padding: 0;
-  }
+head {
+  font-size: 18px;
+}
 
-  head {
-    font-size: 18px;
-  }
-
-  body {
-      font-family: 'Kumbh Sans', sans-serif;
-      background: url("../images/bg-pattern-top.svg") repeat bottom right;
-      background-color: hsl(185, 75%, 39%);
-      background-size: contain;
-      width: 100%;
-      font-size: 1em;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-flow: row wrap;
-  }
-
-  main {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-flow: row wrap;
-  }
-
-  .container {
-      width: 87%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-flow: row wrap;
-  }
-
-  .card {
-      width: 100%;
-      max-width: 375px;
-      margin-top: 147px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-flow: row wrap;
-      border-radius: 15px;
-      overflow: hidden;
-  }
-
-  footer {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-flow: row wrap;
-      margin-top: 70px;
-  }
-
-  .hero {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      flex-flow: row wrap;
-      padding-bottom: 142px;
-      background: url("../images/bg-pattern-card.svg");
-      background-size: cover;
-  }
-
-  .hero p {
-      display: none;
-  }
-
-  .profile-info {
-      background-color: #fff;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-flow: row wrap;
-      padding-top: 75px;
-      position: relative;
-  }
-
-  .profile-info img {
-      position: absolute;
-      top: -50px;
-      border-radius: 55px;
-      border: 7px solid #fff;
-  }
-
-  .personal {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-flow: row wrap;
-  }
-
-  .personal h1 {
-      font-size: 1.35em;
-      width: 100%;
-      text-align: center;
-  }
-
-  .personal .age {
-      color: hsl(0, 0%, 59%);
-  }
-
-  .personal p {
-      padding-top: 17px;
-      font-size: .95em;
-      color: hsl(0, 0%, 59%);
-  }
-
-  .social-data {
-    margin-top: 75px;
-    padding-bottom: 27px;
-    width: 70%;
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background: url("../images/bg-pattern-top.svg") repeat bottom right;
+    background-color: hsl(185, 75%, 39%);
+    background-size: contain;
+    width: 100%;
+    font-size: 1em;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-  }
+}
 
-  .data-item {
-      text-align: center;
-  }
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
 
-  .data-item h3 {
-      padding-bottom: 10px;
-  }
+.container {
+    width: 87%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
 
-  .data-item p {
-      font-size: .8em;
-      color: hsl(0, 0%, 59%);
-  }
+.card {
+    width: 100%;
+    max-width: 375px;
+    margin-top: 147px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-top: 70px;
+}
+
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    padding-bottom: 142px;
+    background: url("../images/bg-pattern-card.svg");
+    background-size: cover;
+}
+
+.hero p {
+    display: none;
+}
+
+.profile-info {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    padding-top: 75px;
+    position: relative;
+}
+
+.profile-info img {
+    position: absolute;
+    top: -50px;
+    border-radius: 55px;
+    border: 7px solid #fff;
+}
+
+.personal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 30px;
+}
+
+.personal h1 {
+    font-size: 1.35em;
+    width: 100%;
+    text-align: center;
+}
+
+.personal .age {
+    color: hsl(0, 0%, 59%);
+}
+
+.personal p {
+    padding-top: 17px;
+    font-size: .95em;
+    color: hsl(0, 0%, 59%);
+}
+
+.social-data {
+  margin-top: 27px;
+  padding-bottom: 27px;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.data-item {
+    text-align: center;
+}
+
+.data-item h3 {
+    padding-bottom: 10px;
+}
+
+.data-item p {
+    font-size: .8em;
+    color: hsl(0, 0%, 59%);
+}
 
 
