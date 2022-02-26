@@ -9,9 +9,12 @@ head {
 
 body {
     font-family: 'Kumbh Sans', sans-serif;
-    background: url("../images/bg-pattern-top.svg") repeat bottom right;
+    /*background: url("../images/bg-pattern-top.svg") repeat bottom right;
     background-color: hsl(185, 75%, 39%);
-    background-size: contain;
+    background-size: contain;*/
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg); 
+    background-repeat: no-repeat; background-position: right 52vw bottom 35vh, left 48vw top 52vh;
     width: 100%;
     font-size: 1em;
     display: flex;
